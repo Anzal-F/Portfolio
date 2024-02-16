@@ -1,0 +1,79 @@
+.head_div{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links_page{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Navbar.css */
+
+/* Styles for navigation bar */
+.navigation_bar {
+    font-size: 1.1em;
+    color: rgb(68, 60, 60);
+    text-decoration: none;
+    margin-right: 38px;
+    margin-left: 30px;
+    font-weight: 500;
+    transition: .3s;
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+/* Styles for navigation links */
+.nav_link {
+    color: rgb(68, 60, 60);
+    text-decoration: none;
+    margin-right: 38px; /* Adjust margin as needed */
+    font-weight: 500;
+    transition: .3s;
+}
+
+/* Hover effect for navigation links */
+.nav_link:hover {
+    color: orange;
+}
+
+
+.download_button {
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+    border: 2px solid orange;
+    font-weight: 500;
+    transition: .3s;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+    float: right;
+}
+
+
+
+.download_button:hover{
+    color: orange;
+    background: transparent;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 3em;
+    color: rgb(182, 121, 7);
+}
+
+.logo_span{
+    color: black;
+}
+
+.profile_banner {
+    background-color: rgb(32, 11, 32);
+    display: flex;
+    position: fixed;
+}

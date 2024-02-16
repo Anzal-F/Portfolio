@@ -1,0 +1,19 @@
+.socials {
+    display: flex;
+    justify-content: space-around;
+
+}
+.ig{
+    width: 32px;
+    height: 32px;
+}
+
+.lkln {
+    width: 32px;
+    height: 32px;
+}
+
+.git {
+    width: 32px;
+    height: 32px;
+}
