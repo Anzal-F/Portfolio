@@ -1,0 +1,86 @@
+.project {
+    background-color: #f0f0f0;
+    height: auto; /* Change height to auto to accommodate dynamic content */
+    width: 100%; /* Adjust width to fit the content */
+    background-image: radial-gradient(circle, rgb(117, 5, 99), #2a0236); /* Gradient from rgb(50, 15, 77) to dark pink */
+    padding: 80px 0; /* Add padding for spacing */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    margin-top: -100px;
+    margin-left: -100px;
+    width: 1300px;
+  }
+  
+  .content_project {
+    max-width: 1300px; /* Set max-width for content */
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .project_title {
+    font-size: 4em;
+    margin-bottom: 80px;
+    color: white; /* Set text color to white */
+  }
+  
+  .project_row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between; /* Center the projects horizontally */
+    gap: 20px; /* Add gap between project items */
+  }
+  
+  .project_item {
+    width: 60%; /* Adjust width to fit two items in a row with gap */
+    position: relative;
+    margin-left: 50px;
+  }
+  
+  
+  .project_item a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .project_img {
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s; /* Add transition for smooth effect */
+  }
+  
+  .project_item:hover .project_img {
+    filter: grayscale(100%) invert(100%); /* Apply grayscale and invert filter on hover */
+  }
+  
+  .project_item3:hover .project_img {
+    filter: grayscale(100%) invert(100%); /* Apply grayscale and invert filter on hover */
+  }
+
+  .project_name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    color: white; /* Initial text color */
+    opacity: 0; /* Initially hide the text */
+    transition: opacity 0.3s; /* Add transition for smooth effect */
+  }
+  
+  .project_item:hover .project_name {
+    opacity: 2; /* Show the text on hover */
+  }
+  
+  .project_item3:hover .project_name {
+    opacity: 2; /* Show the text on hover */
+  }
+
+
+
+  .project_item3{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 60%;
+  }
+  

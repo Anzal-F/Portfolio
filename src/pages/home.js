@@ -1,6 +1,7 @@
 import React from 'react';
 import '../pages/home.css'; // Import CSS file for styling
 import About from '../components/Home/about'; // Assuming About component is defined
+import Project from '../components/Home/projects';
 import profile from "../assets/profile.jpg"
 
 
@@ -15,6 +16,7 @@ const Home = () => {
             </div>
         </div>
       <About/>
+      <Project/>
     </section>
   );
 };

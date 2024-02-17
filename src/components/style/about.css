@@ -1,5 +1,4 @@
 .about {
-    background-color: rgb(50, 15, 77); 
     background-image: radial-gradient(circle, rgb(117, 5, 99), #2a0236);  /* Gradient from rgb(50, 15, 77) to dark pink */
     width: 1300px;
     margin-left: -100px;
