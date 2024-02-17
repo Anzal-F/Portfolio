@@ -19,7 +19,7 @@
   .project_title {
     font-size: 4em;
     margin-bottom: 80px;
-    color: white; /* Set text color to white */
+    color: rgb(15, 15, 15); /* Set text color to white */
   }
   
   .project_row {
